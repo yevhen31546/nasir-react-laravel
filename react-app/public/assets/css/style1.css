@@ -1,0 +1,471 @@
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    background-color: #777;
+}
+
+.carousel .carousel-inner .bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+    background-image: url(/images/slider3.jpg);
+    background-position: center top;
+}
+
+.carousel .carousel-inner .bg2 {
+    background-image: url(/images/slider2.png);
+    background-position: center center;
+}
+
+.carousel .carousel-inner .bg3 {
+    background-image: url(/images/2012-Honda-Gold-Wing.jpg);
+    background-position: center center;
+}
+
+.heading-block {
+    margin-bottom: 50px;
+}
+
+.iconlist.iconlist-large li {
+    margin: 8px 0;
+}
+
+.iconlist.iconlist-large {
+    font-size: 16px;
+}
+
+.iconlist {
+    padding-left: 0;
+    margin-left: 1.75em;
+    list-style-type: none;
+}
+
+.fa1 {
+    color: #22a97b !important;
+    width: 16px;
+    margin-right: 5px;
+    position: absolute;
+    left: -25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.pad-lg-t50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.display-none {
+    display: none!important;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-lg-t50-2 {
+    padding-top: 50px;
+}
+
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.sign-with {
+
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .show-title {
+        margin: 100px 0 0 0;
+    }
+    .carousel .carousel-inner .bg {
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+    .wheel-info-img {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .bike-image-div {
+        text-align: center
+    }
+    
+    .bike-image{
+        width: 350px;
+    }
+    
+    .text-header {
+        margin: 0px 10px
+    }
+    
+    .text-header-div {
+        text-align: center
+    }
+    
+    .bike-text {
+        font-size: 16px
+    }
+
+    .bike-carousel-div {
+        text-align: center;
+        background-color:rgba(60, 72, 80, 0.94);
+    }
+
+    .bike-carousel {
+        top: 45%;
+        position: relative;
+        background-size: contain !important;
+        background-color:rgba(60, 72, 80, 0.94) !important;
+    }
+
+    .submit-button-div {
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    
+    .submitButton {
+        margin-left: 33%;
+        margin-right: 10px;
+    }
+
+    .forgot-password {
+        position: relative;
+        top: 10px;
+    }
+
+    .or {
+        display: none
+    }
+
+    .submit-mobile {
+        display: block;
+    }
+
+    .registraion-mobile {
+        top: 10px;
+        position: relative;
+    }
+
+    .book-now-div {
+        top: 38%;
+    }
+
+    .wheel-cheader-but {
+        padding: 1px 100px !important;
+        top: -4px !important;
+        left: 10px !important;
+        display: block !important
+    }
+}
+
+.modal-open {
+    overflow: auto;
+    padding: 0!important;
+}
+
+body {
+    padding: 0!important;
+}
+
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #c2c2c2;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #dfdfdf
+}
+
+.bottommargin-sm { 
+    margin-bottom: 30px !important; 
+}
+
+label {
+    display: inline-block;
+    font-size: 13px !important;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hidden { 
+    display: none !important; 
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 22px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1ABC9C;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.ride-container {
+    margin: 10px 0px;
+}
+
+
+.login-form {
+    width: 385px;
+    margin: 30px auto;
+}
+.login-form form {        
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .login-btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.input-group-addon .fa {
+    font-size: 18px;
+}
+.login-btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+.social-btn .btn {
+    border: none;
+    margin: 10px 3px 0;
+    opacity: 1;
+}
+.social-btn .btn:hover {
+    opacity: 0.9;
+}
+.social-btn .btn-primary {
+    background: #507cc0;
+}
+.social-btn .btn-info {
+    background: #64ccf1;
+}
+.social-btn .btn-danger {
+    background: #df4930;
+}
+.or-seperator {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.submitButton {
+    background-color: #27aa72;
+    width: 120px
+}
+
+.social-btn-div {
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.social-btn {
+    border-radius: 5px !important;
+    margin: 15px 0;
+}
+
+.login-text {
+    margin: 0px 14px;
+    flex: 0 0 90%;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+}
+
+.facebook {
+    background: #507cc0;
+}
+
+.google {
+    background: #df4930;
+}
+
+.manage-tabs{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.lang-dropdown {
+    padding-left: 10px;
+}
+
+.lang-dropdown:hover {
+    background-color: #262626;
+    color: white
+}
+
+.view-price {
+    margin-top: 35px !important;
+    color: white !important;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    margin-left: 16px;
+}
+
+td {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    margin-left: 16px;
+}
+
+.border-bottom-form {
+    border-bottom: 1px dotted #C2C2C2
+}
+
+.booking-details-header {
+    padding-right: 10px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+th {
+    font-size: 13px !important;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.home-nav {
+    color: #3e3e3e;
+    font-size: 16px
+}
+
+.book-now-div {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

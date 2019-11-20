@@ -1,0 +1,177 @@
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  background-color: #777;
+}
+
+.carousel .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+  background-image: url(/slider3.png);
+  background-position: center top;
+}
+
+.carousel .carousel-inner .bg2 {
+  background-image: url(/slider2.png);
+  background-position: center center;
+}
+
+.carousel .carousel-inner .bg3 {
+  background-image: url(/2012-Honda-Gold-Wing.jpg);
+  background-position: center center;
+}
+
+.heading-block {
+  margin-bottom: 50px;
+}
+
+.iconlist.iconlist-large li {
+  margin: 8px 0;
+}
+
+.iconlist.iconlist-large {
+  font-size: 16px;
+}
+
+.iconlist {
+  padding-left: 0;
+  margin-left: 1.75em;
+  list-style-type: none;
+}
+
+.fa1 {
+  color: #22a97b;
+  width: 16px;
+  margin-right: 5px;
+  position: absolute;
+  left: 1.25em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pad-lg-t50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pad-lg-t50-2 {
+  padding-top: 50px;
+}
+
+div#OR {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: absolute;
+  right: -16px;
+  top: 40%;
+  z-index: 1;
+  background: #dfdfdf;
+}
+
+.nav-tabs {
+  margin-bottom: 15px;
+}
+
+.sign-with {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .show-title {
+    margin: 100px 0 0 0;
+  }
+  .carousel .carousel-inner .bg {
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  .wheel-info-img {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.modal-open {
+  overflow: auto;
+  padding: 0 !important;
+}
+
+body {
+  padding: 0 !important;
+}
+
+.form-control.datePicker > div {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.form-control.datePicker input {
+  width: 100%;
+  min-height: 31px;
+  height: 100%;
+  border: none;
+  padding-left: 10px;
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 0px;
+}
